@@ -1,6 +1,12 @@
 <template>
   <div class="page">
-    <p class="text">Sassチェック</p>
+    <!-- <AtomTextsTextSub message="Hello Hello!"></AtomTextsTextSub> -->
+    <AtomButtonsButtonDefault
+      itemStatus="red"
+    >
+      click!
+    </AtomButtonsButtonDefault>
+    <AtomButtonsButtonDefault>click!</AtomButtonsButtonDefault>
   </div>
 </template>
 
@@ -10,8 +16,6 @@ export default {}
 
 <style lang="scss" scoped>
   .page {
-    > .text {
-      color: $color-font-main;
+    padding: 20px;
     }
-  }
 </style>
